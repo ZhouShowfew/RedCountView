@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.example.steven.redcountview.MainActivity">
+
+    <com.example.steven.redcountview.RedCountView
+        android:id="@+id/red_count_view1"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"/>
+
+    <com.example.steven.redcountview.RedCountView
+        android:id="@+id/red_count_view2"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"/>
+
+    <com.example.steven.redcountview.RedCountView
+        android:id="@+id/red_count_view3"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"/>
+
+    <com.example.steven.redcountview.RedCountView
+        android:id="@+id/red_count_view4"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
